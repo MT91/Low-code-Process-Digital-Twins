@@ -8,9 +8,9 @@ To evaluate the suitability of  LCDPs for supporting PDTs, we conducted a litera
 
 ## Repository Contents
 - **PDTs architecture.pdf**: Proposed architecture for PDTs with a possible supporting technology stack.
-- **Invitation CS.pdf**: Implementation of the Guest Invitation system CS.
-- **Orders CS.pdf**: Implementation of the Orders management system CS.
-- **COBOL CS.pdf**: Implementation of the COBOL project CS.
+- **Invitation_CS** folder: Implementation of the Guest Invitation system CS.
+- **Orders_CS** folder: Implementation of the Orders management system CS.
+- **COBOL_CS** folder: Implementation of the COBOL project CS.
 
 
 ## Authors
