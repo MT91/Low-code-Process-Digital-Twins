@@ -1,1 +1,7 @@
 ## COBOL CS
+
+In the **COBOL CS**, the information system is used by both the citizens and public administration to report waste sites and manage the removal process. Indeed, the list of reported waste sites is grouped by status (see **(b)** in the [Figure](https://github.com/MT91/Low-code-Process-Digital-Twins/blob/main/COBOL_CS/COBOL%20CS.pdf)). Each report is also reported on a map-based view **(c)**. 
+
+In this case study, depending on the type of waste, the system must trigger a different process for removal with a specific workflow. For this reason, we created a Notion database to map the type of waste to the ID of a process corresponding to a workflow in N8N that will be triggered. The asbestos material has a corresponding workflow partially reported in **(e)**. This workflow includes several status changes since the removal process of this type of waste is quite complex. For instance, when the report is validated by the public administrator, an *health emergency notified* status is used to inform the local health department of the possibility of respiratory problems in case of an invalid removal process. We also used Slack to simulate a real-time notification.
+
+Also, in this case, the system interleaves the status changes directed by humans and by the system acting autonomously and reflecting the real-world process. A dashboard, reported in **(a)**, shows the number of reports by waste type on the left, whereas on the right, it shows the number of reports by date. 
