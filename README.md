@@ -14,6 +14,7 @@ examining how LCDPs meet the requirements for PDT implementation across various 
 
 
 ## Repository Contents
+- The [Excel file](literature-review/Literature%20Review%20-%20Process%20Digital%20Twin.xlsx) contains the search string, the applied inclusion and exclusion criteria, all studies, and final studies with the identified characteristics.
 - **[Invitation_CS](https://github.com/MT91/Low-code-Process-Digital-Twins/tree/main/Invitation_CS)** folder: Implementation of the Guest Invitation system CS.
 - **[Orders_CS](https://github.com/MT91/Low-code-Process-Digital-Twins/tree/main/Order_CS)** folder: Implementation of the Orders management system CS.
 - **[COBOL_CS](https://github.com/MT91/Low-code-Process-Digital-Twins/tree/main/COBOL_CS)** folder: Implementation of the COBOL project CS.
