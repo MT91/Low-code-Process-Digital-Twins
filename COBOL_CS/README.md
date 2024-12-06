@@ -1,7 +1,7 @@
 ## COBOL CS
 
-In the **COBOL CS**, the information system is used by both the citizens and public administration to report waste sites and manage the removal process. Indeed, the list of reported waste sites is grouped by status (see **(b)** in the [Figure](https://github.com/MT91/Low-code-Process-Digital-Twins/blob/main/COBOL_CS/CAISE 2025 (2)-4.pdf) ). Each report is also reported on a map-based view **(c)**. 
-![Figure](https://github.com/MT91/Low-code-Process-Digital-Twins/blob/main/COBOL_CS/CAISE 2025 (2)-4.pdf)
+In the **COBOL CS**, the information system is used by both the citizens and public administration to report waste sites and manage the removal process. Indeed, the list of reported waste sites is grouped by status (see **(b)** in the [Figure](COBOL.png). Each report is also reported on a map-based view **(c)**. 
+![Figure](COBOL.png)
 In this case study, depending on the type of waste, the system must trigger a different process for removal with a specific workflow. For this reason, we created a Notion database to map the type of waste to the ID of a process corresponding to a workflow in N8N that will be triggered. 
 In the following [Figure](cobol-meta.png) we reported the meta workflow in charge of calling the right sub-workflow for the specific type of waste.
 ![Figure](cobol-meta.png)
